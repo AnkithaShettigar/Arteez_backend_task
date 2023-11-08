@@ -1,0 +1,47 @@
+.log-form {
+  width: 500px;
+  border-radius: 10px;
+  margin-left: 30%;
+  margin-right: 70%;
+  margin-top: 15%;
+  margin-bottom: 5%;
+  background-color: antiquewhite;
+}
+.log-title {
+  margin-left: 40%;
+  padding-top: 2%;
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+label {
+  display: block;
+  margin-left: 30%;
+  font-weight: 600;
+}
+.input-fill {
+  border: none;
+  outline: none;
+  border: 1px solid gray;
+  border-radius: 10px;
+  width: 200px;
+  height: 30px;
+  margin-left: 30%;
+  margin-bottom: 3%;
+  text-align: center;
+}
+.login-btn {
+  border: none;
+  outline: none;
+  padding: 10px 5px;
+  border-radius: 10px;
+  background-color: #802f2f;
+  font-weight: 600;
+  margin-left: 45%;
+  margin-bottom: 5%;
+}
+.new {
+  margin-left: 300px;
+  padding-bottom: 10px;
+  margin-top: -20px;
+}

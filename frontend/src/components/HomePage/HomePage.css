@@ -1,0 +1,25 @@
+.home-img {
+  background-image: url('../images/library.jpg');
+  width: 100% !important;
+  height: 900px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.letter-title {
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(238, 3, 3);
+  position: absolute;
+  margin-top: -700px;
+  margin-left: 500px;
+}
+.desc {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(73, 137, 196);
+  position: absolute;
+  margin-top: -600px;
+  margin-left: 400px;
+  width: 600px;
+  height: 20px;
+}

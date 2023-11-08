@@ -1,0 +1,82 @@
+.book-content {
+  background-color: aqua;
+  background-image: url('../images/add-book.jpg');
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 100px;
+}
+.book-fill {
+  border: none;
+  outline: none;
+  border: 1px solid gray;
+  border-radius: 10px;
+  width: 200px;
+  height: 30px;
+  margin-left: 25%;
+  margin-bottom: 3%;
+  text-align: center;
+}
+
+.delete-btn,
+.add-btn {
+  border: none;
+  outline: none;
+  padding: 10px 5px;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.book-btn {
+  background-color: rgb(21, 133, 68);
+  border: none;
+  outline: none;
+  padding: 10px 5px;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  position: absolute;
+  margin-left: 500px;
+}
+.add-btn {
+  background-color: rgb(21, 73, 133);
+  margin-left: 50px;
+}
+.delete-btn {
+  background-color: rgb(133, 21, 21);
+  margin-left: 10px;
+}
+.list-book {
+  width: 800px;
+  height: 100px;
+  margin-left: 300px;
+}
+td {
+  text-align: center;
+}
+.add-delete {
+  display: flex;
+}
+
+.error-message {
+  color: white;
+  position: absolute;
+  margin-left: 630px;
+  margin-top: -35px;
+  font-weight: 600;
+  background-color: red;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+.success-message {
+  color: white;
+  position: absolute;
+  margin-left: 630px;
+  margin-top: -35px;
+  font-weight: 600;
+  padding: 5px 10px;
+  border-radius: 10px;
+
+  background-color: green;
+}
